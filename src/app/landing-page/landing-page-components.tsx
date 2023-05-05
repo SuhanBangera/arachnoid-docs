@@ -9,7 +9,7 @@ const LandingPage: FC = () => {
     return (
         <Stack>
             <LandingPageTitle/>
-           <LandingPageIntroduction/>
+           {/* <LandingPageIntroduction/> */}
         </Stack>
     );
 }
