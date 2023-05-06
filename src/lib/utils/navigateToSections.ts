@@ -1,4 +1,4 @@
-export default function (id: string, behavior:'smooth'|'auto'|'instant'='smooth') {
+export default function (id: string, behavior?:ScrollBehavior) {
     const element = document.getElementById(id);
     element!.scrollIntoView({ behavior });
 }
