@@ -12,6 +12,9 @@ const useStyles = makeStyles()(theme=>({
     },
     paper: {
         backgroundColor: theme.palette.background.default,
+    },
+    text: {
+        cursor:'pointer',
     }
 }))
 

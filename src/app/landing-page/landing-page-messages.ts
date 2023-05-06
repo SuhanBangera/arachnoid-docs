@@ -2,7 +2,9 @@ import LocalizedStrings from "react-localization";
 
 const LandingPageMessages = new LocalizedStrings({
     en: {
-        getStarted: 'Get Started',
+        getStarted: 'Getting Started',
+        aboutArachnoid: 'About Arachnoid',
+        whatIsArachnoid: 'So, what is Arachnoid?'
     }
 });
 

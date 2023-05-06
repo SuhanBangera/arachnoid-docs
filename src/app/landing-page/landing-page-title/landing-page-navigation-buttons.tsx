@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArticleIcon from '@mui/icons-material/Article';
 
-import { goToUrl } from "lib/utils";
+import { goToUrl, goToSection } from "lib/utils";
 import LandingPageTranslations from "../landing-page-translations";
 import useStyles from "./landing-page-styles";
 
@@ -30,7 +30,7 @@ const LandingPageNavigationButtons: FC = () => {
                 variant={'outlined'}
                 className={classes.navigationButtons}
                 startIcon={<ArticleIcon />}
-                onClick={()=>goToUrl('https://www.npmjs.com/package/arachnoid')}
+                onClick={() => goToSection('get-started')}
             >
                 {LandingPageTranslations.getttingStarted}
             </Button>

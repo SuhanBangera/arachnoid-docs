@@ -9,7 +9,8 @@ const LandingPage: FC = () => {
     return (
         <Stack>
             <LandingPageTitle/>
-           {/* <LandingPageIntroduction/> */}
+            <Stack height={'40vh'} />
+           <LandingPageIntroduction/>
         </Stack>
     );
 }

@@ -36,5 +36,5 @@ export default TypewriterEffect;
 
 TypewriterEffect.defaultProps = {
     delay: 100,
-    loop: false
+    loop: false,
 }
